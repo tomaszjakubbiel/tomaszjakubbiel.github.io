@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="custom.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      window.addEventListener('scroll', function() {
+        if ( window.scrollY > 0 ) {
+          document.getElementById('navbar').classList.add('bg-white', 'solid-navbar');
+        } else {
+          document.getElementById('navbar').classList.remove('bg-white', 'solid-navbar');
+        }
+      });
+    });
+  </script>
+  <title>Tomasz Biel Fizjoterapia</title>
+  </head>
+<body>
+
+  <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-light transparent-navbar" style="font-weight: 600;">
+    <div class="container-fluid">
+      <a class="navbar-brand fs-4" href="#">
+        <img src="icons/logo kolor.png" style="padding-right: 4%">Tomasz Biel Fizjoterapia</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pe-5 fs-5" style="margin-right: 20%;">
+          <li class="nav-item">
+            <a class="nav-link active text-primary" aria-current="page" href="#">STRONA GŁÓWNA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-primary" href="#omnie">O MNIE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-primary" href="#opinie">OPINIE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-primary" href="#cennik">CENNIK</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-primary" href="#kontakt">KONTAKT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-primary" href="infromation.html">INFORMACJE</a>
+          </li>
+          <li class="nav-item" style="margin-left: 1.5rem;"> <a  target="_blank"  href="https://www.facebook.com/bieltomasz">
+            <img src="icons/facebook-app-symbol (1).png"></a>
+          </li>
+          <li class="nav-item"><a  target="_blank"  href="https://www.instagram.com/biel_tomasz_/">
+            <img src="icons/instagram (3).png"  style="margin-left: 1rem;"> </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  
+  <div class="pt-10 pt-md-24 bg-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.15)), url(pictures/ja-wakacje-nowe.jpg); background-repeat: no-repeat; background-size: cover; height: 100vh;">
+    <div class="container-xl d-flex align-items-center justify-content-center h-100">
+      <div class="row justify-content-center">
+        <div class="col-md-10 col-xl-8 text-center text-white">
+          <div>
+            <h1 class="ls-tight font-bolder display-3 text-gray mb-7">
+              Fizjoterapia z pasji do człowieka!
+            </h1>
+            <p class="lead text-gray text-opacity-75 mb-10">
+              Nazywam się Tomasz Biel - jestem magistrem fizjoterapii i specjalizuję się w holistycznym leczeniu bólu.
+            </p>
+            <div class="mx-sm-n2">
+              <a href="https://www.znanylekarz.pl/tomasz-biel-2/fizjoterapeuta/zielona-gora" class="btn btn-lg btn-primary bg-shade-primary my-2 mx-sm-2 w-100 w-sm-auto">
+                ZAPISZ SIĘ NA WIZYTĘ
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section id="omnie">
+  <div class="container shadow-lg p-3 mb-5 bg-body rounded" >
+    <h1 class="text-center">O MNIE</h1>
+    <div class="row text-center">
+      <div class="col-12 col-md-4 p-3">
+        <p class="h4">
+          Specjalizuję się w leczeniu bólu. Terapia jest holistyczna, zawsze badam całe ciało, po czym staram się znaleźć przyczynę bólu, a nie tylko zaleczać objawy.
+          Pracuję różnymi odmianami terapii manualnej, w tym szczególnie Manipulacjami Powięziowymi wg. Luigiego Stecco.
+          Ukończyłem licencjat z fizjoterapii na Akademii Wychowania Fizycznego we Wrocławiu oraz studia magisterskie na Wyższej Szkole Fizjoterapii we Wrocławiu.
+        </p>
+      </div>
+      <div class="col-12 col-md-4 p-3">
+        <img src="pictures/ja-galowo.png" class="img-fluid border border-4 border-primary">
+      </div>
+      <div class="col-12 col-md-4 p-3">
+        <p class="h4">
+          Jestem dociekliwy, ambitny i sumienny, a fizjoterapia jest moją największą pasją.
+          Pamiętaj, Twój ból to często nie objaw starzenia, a problem, który z reguły da się rozwiązać!
+          Doświadczenie zdobywałem na stażach w prywatnych gabinetach, a od około 3,5 roku praktykuję swój zawód w kilku prywatnych przychodniach na terenie Zielonej Góry oraz Wrocławia.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="opinie">
+<div class="containter" ><h1 class="text-center p-5 bg-primary">OPINIE MOICH PACJENTÓW</h1></div>
+  <div id="carouselExampleDark" class="carousel carousel-dark slide col-lg-6 mx-auto p-5" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    </div>
+    <div class="carousel-inner text-light">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="pictures/ca1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block text-light">
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="pictures/ca2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block text-light">
+         </div>
+      </div>
+      <div class="carousel-item">
+        <img src="pictures/ca3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block text-light">
+          </div>
+      </div>
+      <div class="carousel-item">
+        <img src="pictures/ca4.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block text-light">
+         </div>
+      </div>
+      <div class="carousel-item">
+        <img src="pictures/ca5.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block text-light">
+         </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+</div>
+</section>
+<section>
+<div class="container p-3 justify-content-center border border-primary rounded-3" >
+  <div class="container col-lg-4 col-12 ">
+    <h2 class="text-center p-5">Umów się na wizytę bez dzwonienia!</h2>
+     </div>
+  <div class="container col-lg-4 col-12 ">
+  <a href="https://www.znanylekarz.pl/tomasz-biel-2/fizjoterapeuta/zielona-gora">
+  <img src="pictures/znany.png" class="img-fluid "  >
+  </a>
+</div> 
+</div>
+</section>
+<section id="kontakt">
+<div class="container text-center p-5 " ><h1>KONTAKT</h1></div>
+<div class="container p-5 bg-primary">
+  <div class="row">
+    <div class="col gx-5">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2459.4245516556975!2d15.495605376965171!3d51.944449078681515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470613e5e226f035%3A0x6b0d64c5f5e7fd47!2sGenera%C5%82a%20Jaros%C5%82awa%20D%C4%85browskiego%2041b%2C%2065-021%20Zielona%20G%C3%B3ra!5e0!3m2!1spl!2spl!4v1686065672755!5m2!1spl!2spl" width="100%" height="400"   object-fit="cover" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  <div class="col text-center p-1">
+    <h2>Znajdziesz mnie:</h2>
+    <img src="icons/map (2).png"><p class="h4 p-2">przy ul. Dąbrowskiego 41b w Zielonej Górze  gabinet 00 | -1 piętro</p>
+    <img src="icons/phone.png"><p class="h4 p-2">Numer kontaktowy: +48 799 275 978</p>
+    <img src="icons/gmail.png"><p class="h4 p-2">Adres e-mail: tomaszjakubbiel@gmail.com</p>
+  </div>
+  </div>
+</div>
+</section>
+<section id="cennik">
+<div class="container p-5 shadow-lg mb-5 bg-body rounded" >
+  <h1 class="text-center">CENNIK I ZASADY</h1>
+  <div class="row">
+  <div class="col col-md-6 p-5"><p class="text-center h4 "><strong>Konsultacja Fizjoterapeutyczna: <br> 160 zł <br>
+  Fizjoterapia: <br> 160 zł </strong></p>
+  </div>
+  <div class="col col-md-6 p-5 "><p class="text-center h4 ">Zapisy tylko i wyłącznie przez stronę Znanylekarz.pl. Rejestrując się na wizytę będą musieli Państwo opłacić wizytę. <u>Uwaga! Odwołując 24 godziny lub mniej przed wizytą opłata bezwzrotnie przepada.</u></p>
+    </div>
+</div>
+</div>
+</section>
+<footer class="footer mt-auto mx-auto py-5 bg-primary">
+  <div class="container" >
+    <span class="text-muted">Copyright © 2023 Tomasz Biel - Fizjoterapia </span>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+
+:root{
+  --bs-body-font-family: "Roboto", sans-serif;
+}
+h1{
+  font-weight: 700;
+}
+
+.transparent-navbar {
+  background-color: transparent;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.solid-navbar {
+  background-color: #ffffff;
+  transition: background-color 0.3s ease-in-out;
+}
+$primary: #fbab16;
+
+$custom-colors: (
+  "primary": $primary,
+  "yel": #fbab16,
+);
+
+$theme-colors: map-merge($theme-colors , $custom-colors );
+
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
